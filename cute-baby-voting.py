@@ -25,7 +25,7 @@ while(1):
     countdown(10)
     #Press button to vote
     nameInput.send_keys(NAME)
-    # voteButton.click()
+    voteButton.click()
     count = count + 1
     print(str(count) + ' vote done')
     #sleep for 30 minutes
