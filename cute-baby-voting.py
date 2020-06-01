@@ -1,6 +1,5 @@
 import time
 from selenium.webdriver import Chrome
-#Write the URL here
 def countdown(t):
     while t:
         mins, secs = divmod(t, 60)
@@ -9,6 +8,7 @@ def countdown(t):
         time.sleep(1)
         t -= 1
 
+#Write the URL here
 URL = 'https://mycutebaby.in/contest/participant/?n=5ebe684e8e100'
 #Write your name here
 NAME = 'Mohit Ranjan'
